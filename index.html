@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decodificador de texto</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Decodificador de texto</h1>
+    </header>
+    <main>
+      <div id="container1">
+        <div>
+          <textarea
+            name="text-cpripto"
+            id="text-cpripto"
+            cols="40"
+            rows="30"
+            placeholder="Digite o texto"
+          ></textarea>
+          <p>Apenas letras minúsculas e maiúsculas e sem acento.</p>
+        </div>
+        <div id="buttons">
+          <div>
+            <button id="criptoButton">Criptografar</button>
+          </div>
+          <div>
+            <button id="descripButton">Descriptografar</button>
+          </div>
+        </div>
+      </div>
+      <div id="container2">
+        <div>
+          <textarea
+            name="text-descripto"
+            id="text-descripto"
+            cols="40"
+            rows="30"
+            placeholder="Texto criptografado"
+          ></textarea>
+        </div>
+        <div>
+          <button>Copiar</button>
+        </div>
+      </div>
+    </main>
+    <footer>Criado por Daniel Machado</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
