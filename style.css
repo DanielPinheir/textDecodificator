@@ -26,6 +26,7 @@ main {
   display: flex;
   justify-content: space-evenly;
   align-items: stretch;
+  flex-wrap: wrap;
 }
 
 textarea {
@@ -48,13 +49,17 @@ button {
   height: 30px;
   color: #fffd;
   font-family: monospace;
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
-#buttons {
+#button {
   display: flex;
   justify-content: space-around;
   border-color: rgb(9, 171, 57);
+}
+
+#copy-button {
+  margin-top: 10px;
 }
 
 #container2 {
