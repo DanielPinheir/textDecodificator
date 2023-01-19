@@ -21,6 +21,8 @@
 - HTML
 - CSS
 - Javascript
+- Git e Github
+- Trello
 ---
 ### 👷‍♂‍ Autor
 Feito com ❤️ por Daniel Machado 👋🏽 [Entre em contato!](https://www.linkedin.com/in/daniel-pinheiro-machado/)
