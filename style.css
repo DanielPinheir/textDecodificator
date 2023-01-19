@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-/* body {
-  width: 1680px;
-  height: 1050px;
-} */
-
 header {
   background-color: rgb(81, 133, 154);
   color: #ffff;
@@ -58,7 +53,7 @@ button {
   border-color: rgb(9, 171, 57);
 }
 
-#copy-button {
+#descripButton {
   margin-top: 10px;
 }
 
